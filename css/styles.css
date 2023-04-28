@@ -1,0 +1,139 @@
+
+.root{
+--font-family: inherit;
+--brand-color:{
+
+}
+}
+body{
+   font-family: 'Roboto', sans-serif;
+     background-color: #FFFFFF;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* buttons */
+button{
+    cursor: pointer;
+}
+.open-btn{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+       
+}
+.btn-filtr{
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.btn-filtr:hover{
+color: #FFFFFF;
+background: #404BBF;
+}
+.btn-filtr:focus{
+    color: #FFFFFF;
+        background: #404BBF;
+}
+.modal-btm{
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+.modal-btm:hover{
+    background: #404BBF;
+}
+.modal-btm:focus{
+    background: #404BBF;
+}
+/* header */
+
+
+.logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1,7;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        }
+.black-logo{
+    color: #2E2F42;
+}
+.white-logo{
+    color: #F4F4FD;
+}
+
+.section-head{
+    background: #2E2F42;
+}
+.menu{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.contacts-link{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* titel */
+.main-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* competencies */
+
+.titel-list{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.small-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* skills */
+
+.big-titel{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.12;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+         color: #2E2F42;
+}
+/* Team */
+.team-box{
+    background: #F4F4FD;
+}
+.people-list{
+background: #FFFFFF;
+}
+/* footer*/
+.foorer-box{
+    background: #2E2F42;
+}
+.white-text{
+    color: #F4F4FD;
+}
