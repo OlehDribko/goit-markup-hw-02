@@ -1,13 +1,12 @@
 
-.root{
+:root{
 --font-family: inherit;
---brand-color:{
+}
 
-}
-}
 body{
    font-family: 'Roboto', sans-serif;
      background-color: #FFFFFF;
+    color: #434455
 }
 .list{
     list-style: none;
@@ -22,7 +21,7 @@ button{
 .open-btn{
     font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         display: flex;
         align-items: center;
         text-align: center;
@@ -30,6 +29,7 @@ button{
        
 }
 .btn-filtr{
+    font-family: "Roboto", sans-serif;
     color: #4D5AE5;
     background: #F4F4FD;
 }
@@ -42,6 +42,7 @@ background: #404BBF;
         background: #404BBF;
 }
 .modal-btm{
+    font-family: "Roboto", sans-serif;
     color: #FFFFFF;
     background: #4D5AE5;
 }
@@ -58,7 +59,7 @@ background: #404BBF;
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1,7;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
@@ -79,6 +80,7 @@ background: #404BBF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 .contacts-link{
     font-size: 16px;
@@ -86,11 +88,14 @@ background: #404BBF;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.emeil-tel{
+font-style: normal;
+}
 /* titel */
 .main-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
