@@ -84,11 +84,29 @@ background:var(--accent-color);
     line-height: 1.5;
     letter-spacing: 0.02em
 }
-.contacts-link{
+.menu-link{
+font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--black-logo-titl);
+}
+.menu-link:hover{
+    color: var(--accent-color);
+}
+.contacts-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.contacts-link:hover{
+    color: var(--accent-color);
+}
+.contacts-link:active{
+    color: var(--accent-color);
 }
 .emeil-tel{
 font-style: normal;
