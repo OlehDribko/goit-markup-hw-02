@@ -1,6 +1,8 @@
 
 :root{
 --font-family: inherit;
+--accent-color:#404bbf;
+--black-logo-titl: #2E2F42;
 }
 
 body{
@@ -35,11 +37,11 @@ button{
 }
 .btn-filtr:hover{
 color: #FFFFFF;
-background: #404BBF;
+background:var(--accent-color);
 }
 .btn-filtr:focus{
     color: #FFFFFF;
-        background: #404BBF;
+        background:var(--accent-color);
 }
 .modal-btm{
     font-family: "Roboto", sans-serif;
@@ -47,10 +49,10 @@ background: #404BBF;
     background: #4D5AE5;
 }
 .modal-btm:hover{
-    background: #404BBF;
+    background:var(--accent-color);
 }
 .modal-btm:focus{
-    background: #404BBF;
+    background:var(--accent-color);
 }
 /* header */
 
@@ -67,7 +69,7 @@ background: #404BBF;
         color: #4D5AE5;
         }
 .black-logo{
-    color: #2E2F42;
+    color:var(--black-logo-titl);
 }
 .white-logo{
     color: #F4F4FD;
