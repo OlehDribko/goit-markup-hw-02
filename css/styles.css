@@ -106,7 +106,7 @@ background:var(--accent-color);
     color: #434455;
 }
 .contacts-link:hover{
-    color: var(--accent-color);
+    color: #404bbf;
 }
 .contacts-link:active{
     color: var(--accent-color);
