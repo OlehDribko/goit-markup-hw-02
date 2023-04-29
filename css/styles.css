@@ -90,10 +90,10 @@ background:var(--accent-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--black-logo-titl);
+    color: var(--black-logo-titl);
 }
 .menu-link:focus{
-    color: var(--accent-color);
+    color: #404bbf;
 }
 .menu-link:hover{
     color: var(--accent-color);
