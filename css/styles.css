@@ -85,7 +85,7 @@ background:var(--accent-color);
     letter-spacing: 0.02em
 }
 .menu-link{
-font-style: normal;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -93,6 +93,9 @@ font-style: normal;
     color:var(--black-logo-titl);
 }
 .menu-link:hover{
+    color: var(--accent-color);
+}
+.menu-link:focus{
     color: var(--accent-color);
 }
 .contacts-link{
