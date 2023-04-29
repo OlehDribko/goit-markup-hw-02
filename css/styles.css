@@ -2,7 +2,7 @@
 :root{
 --font-family: inherit;
 --accent-color:#404bbf;
---black-logo-titl: #2E2F42;
+--black-logo-titl:#2E2F42;
 }
 
 body{
@@ -92,16 +92,16 @@ background:var(--accent-color);
     letter-spacing: 0.02em;
     color:var(--black-logo-titl);
 }
-.menu-link:hover{
+.menu-link:focus{
     color: var(--accent-color);
 }
-.menu-link:focus{
+.menu-link:hover{
     color: var(--accent-color);
 }
 .contacts-link{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
