@@ -109,7 +109,7 @@ background:var(--accent-color);
 .contacts-link:hover{
     color: #404bbf;
 }
-.contacts-link:active{
+.contacts-link:focus{
     color: var(--accent-color);
 }
 .emeil-tel{
