@@ -5,6 +5,7 @@
 --black-logo-titl:#2E2F42;
 }
 
+
 body{
    font-family: 'Roboto', sans-serif;
      background-color: #FFFFFF;
@@ -82,7 +83,7 @@ background:var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 .menu-link{
     font-style: normal;
@@ -123,6 +124,7 @@ font-style: normal;
     color: #FFFFFF;
     text-align: center;
 }
+
 
 /* competencies */
 
